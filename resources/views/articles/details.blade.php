@@ -11,6 +11,6 @@
 
     <p>Nom : <strong>{{$article->nom}}</strong></p>
     <p>Catégorie : <strong>{{$article->categorie}}</strong></p>
-    <p>Description : <strong>{{$article->description}}</strong></p>
+    <p>Description :{{$article->description}}</p>
 </body>
 </html>

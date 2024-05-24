@@ -27,4 +27,8 @@ class ArticleController extends Controller
         return view('articles/details', ['article'=>$article]);
     }
 
+    public function ajouterArticle(Request $request) {
+        dd($request);
+    }
+
 }
